@@ -23,7 +23,7 @@ export default function Servicos() {
 
       <Swiper
         slidesPerView={1}
-        spaceBetween={50}
+        spaceBetween={20}
         centeredSlides={false}
         slidesPerGroupSkip={1}
         grabCursor={true}
@@ -38,7 +38,7 @@ export default function Servicos() {
         }}
         scrollbar={true}
         modules={[Keyboard, Scrollbar, Navigation, Pagination]}
-        className="mySwiper p-4 flex gap-10 my-10"
+        className="mySwiper p-4 flex  my-10"
       >
         <SwiperSlide className="rounded-2xl">
           <img className="rouded-2xl" src={Aleatory_image_1} />

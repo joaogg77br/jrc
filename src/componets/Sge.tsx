@@ -1,4 +1,5 @@
 import Sge_logo from "../../assets/Imgs/Sge/Sge_logo.svg"
+import { Link } from "react-router"
 
 import Sge_Graph from "../../assets/Imgs/Sge/Sge_Graph.svg"
 import Sge_Vector from "../../assets/Imgs/Sge/Sge_Vector.svg"
@@ -22,11 +23,13 @@ export default function Sge() {
           relatórios de conformidade, e alertas de manutenção
           preventiva.
         </p>
-        <button className="
+        <Link to={"/sge"}>
+          <button className="
         border-2 p-2 flex gap-4 cursor-pointer px-6 Medium rounded-3xl ">
-          Saiba mais
-          <img src={Sge_Vector} />
-        </button>
+            Saiba mais
+            <img src={Sge_Vector} />
+          </button>
+        </Link>
       </div>
       <img className="h-60 lg:m-4 my-10" src={Sge_Graph} />
     </div>

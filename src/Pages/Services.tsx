@@ -11,11 +11,11 @@ export default function Services() {
     <div>
       <Header />
       <BannerW title="Nossos Serviços" message="Nosso portfólio de ofertas abrange competências, especializações e serviços de aplicação que se alinham às mudanças da indústria." />
-      <section className="grid lg:grid ">
-        <div className="flex flex-col  ">
+      <section className="grid lg:grid py-20">
+        <div className="flex flex-col  p-5">
           <h1 className="SemiBold text-center text-[20px] my-20">Soluções de Software para Gestão de Integridade Mecânica</h1>
           <div className="flex justify-center items-center flex-col gap-10  w-full 
-          lg:flex-row ">
+          lg:flex-row  flex-wrap">
             <BlurCard image={AleatorY_Image_1} title="askdjaldjlkj" content="" />
             <BlurCard image={AleatorY_Image_1} title="" content="" />
             <BlurCard image={AleatorY_Image_1} title="" content="" />
@@ -24,7 +24,7 @@ export default function Services() {
         <div className="flex flex-col  ">
           <h1 className="SemiBold text-center text-[20px] my-20">Soluções de Software para Gestão de Integridade Mecânica</h1>
           <div className="flex justify-center items-center flex-col gap-10  w-full 
-          lg:flex-row ">
+          lg:flex-row flex-wrap">
             <BlurCard image={AleatorY_Image_1} title="askdjaldjlkj" content="" />
             <BlurCard image={AleatorY_Image_1} title="" content="" />
             <BlurCard image={AleatorY_Image_1} title="" content="" />
@@ -33,7 +33,7 @@ export default function Services() {
         <div className="flex flex-col ">
           <h1 className="SemiBold text-center text-[20px] my-20">Soluções de Software para Gestão de Integridade Mecânica</h1>
           <div className="flex justify-center items-center flex-col gap-10  w-full 
-          lg:flex-row ">
+          lg:flex-row flex-wrap">
             <BlurCard image={AleatorY_Image_1} title="askdjaldjlkj" content="" />
             <BlurCard image={AleatorY_Image_1} title="" content="" />
             <BlurCard image={AleatorY_Image_1} title="" content="" />

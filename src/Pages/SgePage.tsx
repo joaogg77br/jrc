@@ -17,7 +17,7 @@ export default function SgePage() {
         <p className="text-[15px] Medium text-center p-4 text-[#999999] pb-6">
           O SGE está alinhado com os critérios estabelecidos na NR-13.
         </p>
-        <section className="flex flex-col gap-4
+        <section className="flex p-4 lg:p-0 flex-col gap-8 my-20
           lg:grid grid-cols-3 
         ">
           <FrameSge number={1} message="Categoriza os vasos de pressão cujo produto (Pressão x Volume) seja superior a 8 (oito);" />

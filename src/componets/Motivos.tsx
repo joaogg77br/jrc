@@ -27,7 +27,7 @@ nossos clientes se beneficiam das últimas tendências e melhorias tecnológicas
           />
         </section>
 
-        <section className="grid gap-10 pb-10">
+        <section className="grid gap-10 pb-20">
           <Cards image={Cards_Page_1}
             title="Suporte Técnico 24h"
             content="Nossa equipe de suporte técnico está disponível 24/7, pronta para

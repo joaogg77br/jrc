@@ -4,12 +4,14 @@ import { useState } from "react"
 import Menubar from './Menu'
 import Scrolltop from "./ScrollTop"
 import { Link } from "react-router"
+import { useLocation } from "react-router"
 
 //Mudar a font 
 //verificar se o peso da font tá igual e comparar os padding
 
 export default function Header() {
   const [menuVisible, setMenuVisible] = useState<boolean>(false)
+  const path = useLocation().pathname
   return (
     <>
       <header className="
@@ -33,12 +35,13 @@ export default function Header() {
           hidden w-full  pr-10 justify-end 
           items-center h-10
           gap-15 text-[#999999] SemiBold
-          lg:flex "
+          lg:flex  duration-300"
         >
-          <p><Link to={"/sobre"}>Sobre nós</Link></p>
-          <p><Link to={"/services"}>Serviços </Link></p>
-          <p><Link to={"/sge"}>SGE</Link></p>
-          <p><Link to={"/contato"}>Contate-nos </Link></p>
+
+          <p className={`${path === '/sobre' ? `SemiBold text-black text-xl` : `nada`}`}><Link to={"/sobre"}>Sobre nós</Link></p>
+          <p className={`${path === '/services' ? `text-black text-xl` : `nada`}`}><Link to={"/services"}>Serviços </Link></p>
+          <p className={`${path === '/sge' ? `text-black text-xl` : `nada`}`}><Link to={"/sge"}>SGE</Link></p>
+          <p className={`${path === '/contato' ? `text-black text-xl` : `nada`}`}><Link to={"/contato"}>Contate-nos </Link></p>
         </section>
         <section className={`Menu ${menuVisible ? "MenuHamburguerOpen" : "MenuHamburguerClose"} pl-6 absolute w-full left-0 top-20 bg-white `}>
           <div>

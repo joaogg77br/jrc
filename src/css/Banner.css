@@ -1,42 +1,50 @@
-@font-face{
+@font-face {
   font-family: "BaiJamjuree-SemiBold";
   src: url('../assets/BaiJamjuree/BaiJamjuree-SemiBold.ttf') format('truetype');
   font-weight: 600;
 }
 
-@font-face{
+@font-face {
   font-family: "BaiJamjuree";
   src: url("../../assets/BaiJamjuree/BaiJamjuree-Regular.ttf") format('truetype');
   font-weight: 500;
 }
 
-.Banner-container{
+.Banner-container {
   font-family: "BaiJamjuree";
   background-image: url("../../assets/Gifs/007f46b74dbd59c2d697aa13203a49ffe0b53d02.gif");
   background-position: center;
   background-size: cover;
 }
 
-.Banner-title{
+
+.Banner-container2 {
+  font-family: "BaiJamjuree";
+  background-image: url("../../assets/Gifs/007f46b74dbd59c2d697aa13203a49ffe0b53d02.gif");
+  background-position: center;
+  background-size: cover;
+}
+
+.Banner-title {
   font-family: "BaiJamjuree-SemiBold";
 }
 
-button{
+button {
 
   font-family: "BaiJamjuree";
 }
 
-@media (min-width:1024px){
-  .Banner-container{
+@media (min-width:1024px) {
+  .Banner-container {
     background-image: url("../../assets/Imgs/Services/ffa4e2452084d0fb13cf3623ffd6fd19495bc55e.png");
-    background-size:;
     background-position: top;
   }
-  .Banner-container h1{
+
+  .Banner-container h1 {
     color: #1A1A1A;
   }
 
-  .Banner-container p{
-    color:#999999;
+  .Banner-container p {
+    color: #999999;
   }
 }
