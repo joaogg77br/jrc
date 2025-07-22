@@ -8,8 +8,6 @@ import Visao from "../../assets/Imgs/About/Visao.svg"
 import Dimond from "../../assets/Imgs/About/Dimond.svg"
 import BrokenHead from "../../assets/Imgs/About/BrokenHead.svg"
 
-import VisaoFull from "../../assets/Imgs/Sge/Sge_Olho_Completo.svg"
-import DimondFull from "../../assets/Imgs/Sge/Sge_dimond_Completo.svg"
 
 export default function About() {
   return (

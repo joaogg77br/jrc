@@ -4,7 +4,7 @@ type Props = {
     content: string
 }
 
-export default function BlurCard({ image, title, content }: Props) {
+export default function BlurCard({ image }: Props) {
     return (
         <>
             <div className="text-white m-0 relative  w-[338px] h-[408px]

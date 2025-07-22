@@ -1,10 +1,8 @@
 import Header from "../componets/Header";
 import Footer from "../componets/Footer";
 import BannerW from "../componets/BannerWithoutButton";
-import Other_logo from "../../assets/Imgs/Services/Logo_other_enteprise.svg"
 import BlurCard from "../componets/BlurCard";
 import AleatorY_Image_1 from "../../assets/Imgs/Services/Aleatory_image_1.svg"
-import AleatorY_Image_2 from "../../assets/Imgs/Services/Aleatory_image_2.svg"
 
 export default function Services() {
   return (
