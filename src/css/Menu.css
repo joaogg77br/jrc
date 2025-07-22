@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "BaiJamjuree-SemiBold";
+  src: url('../assets/BaiJamjuree/BaiJamjuree-SemiBold.ttf') format('truetype');
+  font-weight: 800;
+}
+
+.Menu {
+  font-family: "BaiJamjuree-SemiBold";
+}

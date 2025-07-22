@@ -1,0 +1,29 @@
+.ImagemFalso {
+    background: url("../../assets/Imgs/About/Visao.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    border-bottom-right-radius: 0px;
+}
+
+.ImagemFalso2 {
+    background: url("../../assets/Imgs/About/Dimond.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    background-position: center;
+}
+
+.ImagemFalso3 {
+    background: url("../../assets/Imgs/About/BrokenHead.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    border-top-right-radius: 0px;
+}
+
+@media (min-width:1024px) {}
