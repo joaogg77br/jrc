@@ -12,7 +12,7 @@ export default function BlurCard({ image }: Props) {
                 <div
                     style={{ backgroundImage: `url(${image})` }}
                     className="rounded-2xl 
-                    absolute  bg-no-repeat   w-[338px] h-full ">
+                        absolute  bg-no-repeat   w-[338px] h-full ">
                 </div>
             </div>
         </>

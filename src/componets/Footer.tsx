@@ -11,23 +11,25 @@ export default function Footer() {
     lg:px-30
     ">
       <div className="flex items-start gap-10 flex-col">
-        <img src={Logo_Gray} className="h-20" />
+        <Link to={"/"}>
+          <img src={Logo_Gray} className="h-20" />
+        </Link>
         <div className="hidden lg:flex flex-wrap gap-4">
           <Link to={"/sobre"}>
             <ButtonFooter name={"Sobre nós"} />
           </Link>
           <Link to={"/services"}>
-            <ButtonFooter name={"Capacidades"} />
+            <ButtonFooter name={"Produtos e Serviços"} />
           </Link>
           <Link to={"/sge"}>
-            <ButtonFooter name={"Sistema de Geranciamento de Equipamentos (SGE)"} />
+            <ButtonFooter name={"SGE - Sistema Gerencial de Equipamentos"} />
           </Link>
           <Link to={"/contato"}>
             <ButtonFooter name={"Contate-nós"} />
           </Link>
         </div>
       </div>
-      <p className="py-4 Medium text-[#999999]">Copyright @ JRC Tecnologia 1992-2024</p>
+      <p className="py-4 Medium text-[#999999]">Copyright @ JRC Informática 1992-2024</p>
       <hr className="my-6 border-[0.3px] opacity-40 border-zinc-500 text-black  " />
       <div className="flex justify-end gap-4">
         <img src={Instagram} />

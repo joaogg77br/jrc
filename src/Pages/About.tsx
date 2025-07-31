@@ -4,6 +4,10 @@ import BannerW from "../componets/BannerWithoutButton.tsx"
 import "../css/ImagemFalso.css"
 
 //Imagens
+// import Visao from "../../assets/Imgs/About/Visao.svg"
+// import Dimond from "../../assets/Imgs/About/Dimond.svg"
+// import BrokenHead from "../../assets/Imgs/About/BrokenHead.svg"
+
 import Visao from "../../assets/Imgs/About/Visao.svg"
 import Dimond from "../../assets/Imgs/About/Dimond.svg"
 import BrokenHead from "../../assets/Imgs/About/BrokenHead.svg"
@@ -13,7 +17,7 @@ export default function About() {
   return (
     <div>
       <Header />
-      <BannerW title="Somos a JRC" message="Fundada em 1992, a JRC Tecnologia se estabeleceu como uma empresa dedicada ao desenvolvimento de softwares e à prestação de serviços na área de tecnologia da informação (TI). Ao longo dos anos, a empresa consolidou sua presença no mercado oferecendo soluções inovadoras e adaptáveis às necessidades dos clientes." />
+      <BannerW title="Somos a JRC" message="Fundada em 1992, a JRC Informática se estabeleceu como uma empresa dedicada ao desenvolvimento de softwares e à prestação de serviços na área de tecnologia da informação (TI). Ao longo dos anos, a empresa consolidou sua presença no mercado oferecendo soluções inovadoras e adaptáveis às necessidades dos clientes." />
       <section className="flex flex-col  py-26 gap-10 
       lg:px-30 lg:gap-0
       ">

@@ -14,7 +14,7 @@ export default function Parceiros() {
           text-[21px] py-4 text-center text-zinc-800">
         Companhias que utilizam nossos produtos e serviços
       </h1>
-      <hr className="my-8 w-full border-[0.3px] opacity-40 border-zinc-500 text-black" />
+      <hr className="my-8 w-full border-[0.3px] opacity-40 border-zinc-500 text-black lg:w-1/2 " />
       <section className="flex flex-wrap justify-center gap-4 p-4
       lg:gap-10
       ">

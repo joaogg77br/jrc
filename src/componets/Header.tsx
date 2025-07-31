@@ -1,5 +1,5 @@
 import "../css/Menu.css"
-import Logo from "../../assets/Imgs/Logo.svg"
+import Logo from "../../assets/Imgs/Logo.svg?react"
 import { useState } from "react"
 import Menubar from './Menu'
 import Scrolltop from "./ScrollTop"
@@ -22,7 +22,7 @@ export default function Header() {
         <Scrolltop />
         <button>
           <Link to="/">
-            <img src={Logo}></img>
+            <Logo />
           </Link>
         </button>
         <button

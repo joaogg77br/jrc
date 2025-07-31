@@ -1,5 +1,8 @@
 import Cards from "./Cards";
 import Cards_Page_1 from "../../assets/Imgs/Cards_Page_1/Card_1.svg"
+import Cards_Page_2 from "../../assets/Imgs/Cards_Page_1/Icone_BrokenHead.png"
+import Cards_Page_3 from "../../assets/Imgs/Cards_Page_1/Icone_Chat.png"
+import Cards_Page_4 from "../../assets/Imgs/Cards_Page_1/Icone_Shield.png"
 
 export default function Motivos() {
   return (
@@ -19,7 +22,7 @@ segurança e tranquilidade para nossos clientes, sabendo que estão em
 conformidade com as normas mais rigorosas do setor."
           />
 
-          <Cards image={Cards_Page_1}
+          <Cards image={Cards_Page_2}
             title="Inovação Contínua"
             content="Oferecemos soluções personalizadas que atendem às necessidades
 específicas de cada cliente, utilizando as tecnologias mais avançadas. Nosso compromisso com a inovação contínua significa que
@@ -28,7 +31,7 @@ nossos clientes se beneficiam das últimas tendências e melhorias tecnológicas
         </section>
 
         <section className="grid gap-10 pb-20">
-          <Cards image={Cards_Page_1}
+          <Cards image={Cards_Page_3}
             title="Suporte Técnico 24h"
             content="Nossa equipe de suporte técnico está disponível 24/7, pronta para
 responder a qualquer necessidade ou problema que nossos clientes
@@ -36,7 +39,7 @@ possam enfrentar. Com um serviço de atendimento rápido e eficaz,
 garantimos que suas
 operações não sejam interrompidas e que qualquer questão seja resolvida prontamente."/>
 
-          <Cards image={Cards_Page_1}
+          <Cards image={Cards_Page_4}
             title="Segurança Industrial"
             content="Prestamos serviços de consultoria detalhados e treinamentos
 abrangentes para capacitar as equipes de nossos clientes. Nosso objetivo é não apenas fornecer soluções, mas também garantir que as equipes
