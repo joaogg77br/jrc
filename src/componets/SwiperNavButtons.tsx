@@ -18,7 +18,7 @@ export default function SwiperNavButtons() {
             </div>
             <div className="text-white Medium">
                 <Link to={"/services"}>
-                    <ButtonGrandient text="Saiba Mais" />
+                    <ButtonGrandient disabled={undefined} text="Saiba Mais" />
                 </Link>
             </div>
         </div>
