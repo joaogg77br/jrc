@@ -4,13 +4,9 @@ import BannerW from "../componets/BannerWithoutButton.tsx"
 import "../css/ImagemFalso.css"
 
 //Imagens
-// import Visao from "../../assets/Imgs/About/Visao.svg"
-// import Dimond from "../../assets/Imgs/About/Dimond.svg"
-// import BrokenHead from "../../assets/Imgs/About/BrokenHead.svg"
-
-import Visao from "../../assets/Imgs/About/Visao.svg"
-import Dimond from "../../assets/Imgs/About/Dimond.svg"
-import BrokenHead from "../../assets/Imgs/About/BrokenHead.svg"
+import Visao from "../../assets/Imgs/About/Visao.png"
+import Dimond from "../../assets/Imgs/About/Dimond.png"
+import BrokenHead from "../../assets/Imgs/About/BrokenHead.png"
 
 
 export default function About() {
@@ -19,20 +15,19 @@ export default function About() {
       <Header />
       <BannerW title="Somos a JRC" message="Fundada em 1992, a JRC Informática se estabeleceu como uma empresa dedicada ao desenvolvimento de softwares e à prestação de serviços na área de tecnologia da informação (TI). Ao longo dos anos, a empresa consolidou sua presença no mercado oferecendo soluções inovadoras e adaptáveis às necessidades dos clientes." />
       <section className="flex flex-col  py-26 gap-10 
-      lg:px-30 lg:gap-0
-      ">
+      lg:px-30 lg:gap-0 ">
         <div className="
         lg:flex ">
           <div className="ImagemFalso  hidden
           lg:w-[1500px] lg:h-[420px] lg:rounded-t-2xl  lg:rounded-bl-2xl lg:flex">
           </div>
           <div className="flex justify-start">
-            <img className="lg:hidden" src={Visao} />
+            <img className="lg:hidden rounded-r-[30px]" src={Visao} />
           </div>
           <div className="pl-6 p-4 py-4">
             <h2 className="text-[30px] SemiBold">Visão</h2>
-            <p className="pt-6 Medium text-[15px] text-[#999999]"> Desenvolver sistemas de informações, com tecnologia
-              de ponta.
+            <p className="pt-6 Medium text-[15px] text-[#999999]">
+              Desenvolver sistemas de informações, com tecnologia de ponta.
               Executar serviços de suporte e manutenção de alto
               nível profissional, agregando valor ao negócio de nossos clientes
               e reduzindo os custos operacionais.
@@ -44,7 +39,7 @@ export default function About() {
           className="flex flex-col
           lg:flex-row ">
           <div className="flex justify-end ">
-            <img className="lg:hidden" src={Dimond} />
+            <img className="lg:hidden sm:rounded-l-[30px]" src={Dimond} />
           </div>
           <div className="pl-6 p-4 py-4">
             <h2 className="text-[30px] SemiBold">Valores</h2>
@@ -66,7 +61,7 @@ export default function About() {
           rounded-tr-0 lg:rounded-t-2xl lg:block  lg:rounded-bl-2xl">
           </div>
           <div className="flex justify-start">
-            <img className="lg:hidden" src={BrokenHead} />
+            <img className="lg:hidden sm:rounded-r-[30px]" src={BrokenHead} />
           </div>
           <div className="pl-6 p-4 py-4">
             <h2 className="text-[30px] SemiBold">Propósito</h2>

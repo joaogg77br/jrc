@@ -2,6 +2,7 @@ import Header from "../componets/Header"
 import Footer from "../componets/Footer"
 import BannerW from "../componets/BannerWithoutButton"
 import FrameSge from "../componets/Frame_sge"
+import bgPattern from "../../assets/Imgs/Sge/plus.svg"
 
 export default function SgePage() {
   return (
@@ -17,7 +18,7 @@ export default function SgePage() {
         <p className="text-[15px] Medium text-center p-4 text-[#999999] pb-6">
           O SGE está alinhado com os critérios estabelecidos na NR-13.
         </p>
-        <section className="flex p-4 lg:p-0 flex-col gap-8 my-20
+        <section style={{ backgroundImage: `url(${bgPattern})` }} className=" bg-repeat flex p-4 lg:p-0 flex-col gap-8 my-20
           lg:grid grid-cols-3 
         ">
           <FrameSge number={1} message="Categoriza os vasos de pressão cujo produto (Pressão x Volume) seja superior a 8 (oito);" />

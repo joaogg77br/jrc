@@ -1,3 +1,4 @@
+import { Link } from "react-router"
 import "../css/Banner.css"
 import ButtonGrandient from "./ButtonGradient"
 
@@ -16,8 +17,9 @@ export default function Banner({ title, message }: Props) {
         {title}
       </h1>
       <p className="text-white opacity-80 mt-6">{message}</p>
-      <ButtonGrandient text={"Saiba mais"} />
-
+      <Link to={"/sobre"}>
+        <ButtonGrandient text={"Saiba mais"} disabled={undefined} />
+      </Link>
     </div>
   )
 }
