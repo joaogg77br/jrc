@@ -1,5 +1,5 @@
 import "../css/Menu.css"
-import Logo from "../../assets/Imgs/Logo.svg?react"
+import Logo from "../../public/assets/Imgs/Logo.svg?react"
 import { useState } from "react"
 import Menubar from './Menu'
 import Scrolltop from "./ScrollTop"

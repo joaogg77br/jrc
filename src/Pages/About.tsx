@@ -4,9 +4,9 @@ import BannerW from "../componets/BannerWithoutButton.tsx"
 import "../css/ImagemFalso.css"
 
 //Imagens
-import Visao from "../../assets/Imgs/About/Visao.png"
-import Dimond from "../../assets/Imgs/About/Dimond.png"
-import BrokenHead from "../../assets/Imgs/About/BrokenHead.png"
+import Visao from "../../public/assets/Imgs/About/Visao.png"
+import Dimond from "../../public/assets/Imgs/About/Dimond.png"
+import BrokenHead from "../../public/assets/Imgs/About/BrokenHead.png"
 
 
 export default function About() {

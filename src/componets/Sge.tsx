@@ -1,8 +1,8 @@
-import Sge_logo from "../../assets/Imgs/Sge/Sge_logo.svg"
+import Sge_logo from "../../public/assets/Imgs/Sge/Sge_logo.svg"
 import { Link } from "react-router"
 
-import Sge_Graph from "../../assets/Imgs/Sge/Sge_Graph.svg"
-import Sge_Vector from "../../assets/Imgs/Sge/Sge_Vector.svg"
+import Sge_Graph from "../../public/assets/Imgs/Sge/Sge_Graph.svg"
+import Sge_Vector from "../../public/assets/Imgs/Sge/Sge_Vector.svg"
 
 export default function Sge() {
   return (

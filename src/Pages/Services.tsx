@@ -13,20 +13,20 @@ import BlurCard from "../componets/BlurCard";
 // import AleatorY_Image_8 from "../../assets/Imgs/Services/Aleatory_image_8.svg"
 // import AleatorY_Image_9 from "../../assets/Imgs/Services/Aleatory_image_9.svg"
 
-import LogoEntreprise from "../../assets/Imgs/Services/Logo_other_enteprise.svg?react"
+import LogoEntreprise from "../../public/assets/Imgs/Services/Logo_other_enteprise.svg?react"
 
-import Item1 from "../../assets/Imgs/Imagens sem letras/Imagem_1.jpg"
-import Item2 from "../../assets/Imgs/Imagens sem letras/Imagem_2.jpg"
-import Item3 from "../../assets/Imgs/Imagens sem letras/Imagem_3.png"
-import Item4 from "../../assets/Imgs/Imagens sem letras/Imagem_4.jpg"
-import Item5 from "../../assets/Imgs/Imagens sem letras/Imagem_5.jpg"
-import Item6 from "../../assets/Imgs/Imagens sem letras/Imagem_6.jpg"
-import Item7 from "../../assets/Imgs/Imagens sem letras/Imagem_7.jpg"
-import Item8 from "../../assets/Imgs/Imagens sem letras/Imagem_8.png"
-import Item9 from "../../assets/Imgs/Imagens sem letras/Imagem_9.jpg"
-import Item10 from "../../assets/Imgs/Imagens sem letras/Imagem10.jpg"
-import Item11 from "../../assets/Imgs/Imagens sem letras/Imagem_11.jpg"
-import Item12 from "../../assets/Imgs/Imagens sem letras/Imagem_12.jpg"
+import Item1 from "../../public/assets/Imgs/Imagens sem letras/Imagem_1.jpg"
+import Item2 from "../../public/assets/Imgs/Imagens sem letras/Imagem_2.jpg"
+import Item3 from "../../public/assets/Imgs/Imagens sem letras/Imagem_3.png"
+import Item4 from "../../public/assets/Imgs/Imagens sem letras/Imagem_4.jpg"
+import Item5 from "../../public/assets/Imgs/Imagens sem letras/Imagem_5.jpg"
+import Item6 from "../../public/assets/Imgs/Imagens sem letras/Imagem_6.jpg"
+import Item7 from "../../public/assets/Imgs/Imagens sem letras/Imagem_7.jpg"
+import Item8 from "../../public/assets/Imgs/Imagens sem letras/Imagem_8.png"
+import Item9 from "../../public/assets/Imgs/Imagens sem letras/Imagem_9.jpg"
+import Item10 from "../../public/assets/Imgs/Imagens sem letras/Imagem10.jpg"
+import Item11 from "../../public/assets/Imgs/Imagens sem letras/Imagem_11.jpg"
+import Item12 from "../../public/assets/Imgs/Imagens sem letras/Imagem_12.jpg"
 
 
 

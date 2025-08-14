@@ -1,11 +1,11 @@
 
-import Parceiro1 from "../../assets/Imgs/Parceiro/Parceiro_1.svg"
-import Parceiro2 from "../../assets/Imgs/Parceiro/Parceiro_2.svg"
-import Parceiro3 from "../../assets/Imgs/Parceiro/Parceiro_3.svg"
-import Parceiro4 from "../../assets/Imgs/Parceiro/Parceiro_4.svg"
-import Parceiro5 from "../../assets/Imgs/Parceiro/Parceiro_5.svg"
-import Parceiro6 from "../../assets/Imgs/Parceiro/Parceiro_6.svg"
-import Parceiro7 from "../../assets/Imgs/Parceiro/Parceiro_7.svg"
+import Parceiro1 from "../../public/assets/Imgs/Parceiro/Parceiro_1.svg"
+import Parceiro2 from "../../public/assets/Imgs/Parceiro/Parceiro_2.svg"
+import Parceiro3 from "../../public/assets/Imgs/Parceiro/Parceiro_3.svg"
+import Parceiro4 from "../../public/assets/Imgs/Parceiro/Parceiro_4.svg"
+import Parceiro5 from "../../public/assets/Imgs/Parceiro/Parceiro_5.svg"
+import Parceiro6 from "../../public/assets/Imgs/Parceiro/Parceiro_6.svg"
+import Parceiro7 from "../../public/assets/Imgs/Parceiro/Parceiro_7.svg"
 
 export default function Parceiros() {
   return (

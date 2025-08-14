@@ -1,7 +1,7 @@
-import Facebook from "../../assets/Imgs/Footer/facebook.svg"
-import Instagram from "../../assets/Imgs/Footer/instagram.svg"
-import XT from "../../assets/Imgs/Footer/X.svg"
-import Logo_Gray from "../../assets/Imgs/Footer/Logo_Gray.svg"
+import Facebook from "../../public/assets/Imgs/Footer/facebook.svg"
+import Instagram from "../../public/assets/Imgs/Footer/instagram.svg"
+import XT from "../../public/assets/Imgs/Footer/X.svg"
+import Logo_Gray from "../../public/assets/Imgs/Footer/Logo_Gray.svg"
 import ButtonFooter from "./ButtonFooter"
 import { Link } from "react-router"
 

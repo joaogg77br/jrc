@@ -1,8 +1,8 @@
 import Cards from "./Cards";
-import Cards_Page_1 from "../../assets/Imgs/Cards_Page_1/Card_1.svg"
-import Cards_Page_2 from "../../assets/Imgs/Cards_Page_1/Icone_BrokenHead.png"
-import Cards_Page_3 from "../../assets/Imgs/Cards_Page_1/Icone_Chat.png"
-import Cards_Page_4 from "../../assets/Imgs/Cards_Page_1/Icone_Shield.png"
+import Cards_Page_1 from "../../public/assets/Imgs/Cards_Page_1/Card_1.svg"
+import Cards_Page_2 from "../../public/assets/Imgs/Cards_Page_1/Icone_BrokenHead.png"
+import Cards_Page_3 from "../../public/assets/Imgs/Cards_Page_1/Icone_Chat.png"
+import Cards_Page_4 from "../../public/assets/Imgs/Cards_Page_1/Icone_Shield.png"
 
 export default function Motivos() {
   return (

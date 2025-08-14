@@ -2,7 +2,7 @@ import Header from "../componets/Header"
 import Footer from "../componets/Footer"
 import BannerW from "../componets/BannerWithoutButton"
 import FrameSge from "../componets/Frame_sge"
-import bgPattern from "../../assets/Imgs/Sge/plus.svg"
+import bgPattern from "../../public/assets/Imgs/Sge/plus.svg"
 
 export default function SgePage() {
   return (
